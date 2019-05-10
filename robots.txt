@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://liewaodohy.echoheart.cn/sitemap.xml

